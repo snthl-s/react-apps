@@ -1,0 +1,49 @@
+.title{
+    height: 150px;
+    width: 400px;
+    align-content: center;
+    background-image: url('../assets/logo.png');
+    background-size: cover;
+    background-repeat: none;
+    opacity: 2;
+    display: inline-block;
+
+    
+}
+.headings{
+    color:red;
+    font-weight: bold;
+    
+    font-size: 40pt;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010507+20,ffffff+99,ffffff+100 */
+background: rgb(1,5,7); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(1,5,7,1) 20%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(1,5,7,1) 20%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(1,5,7,1) 20%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010507', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}  
+body{
+    margin-top:0;
+    background-image: url('../assets/background.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    opacity: 0.8;
+    font-family: 'Marvel', sans-serif;
+    color: red;
+    font-weight: 500;
+}
+
+.App{
+    text-align: center;
+    padding:5%;
+   }
+.list-item{
+    display : inline-block;
+
+}
+.right-button{
+    cursor: pointer;
+    float : right;
+}
